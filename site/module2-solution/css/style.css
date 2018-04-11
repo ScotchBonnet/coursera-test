@@ -4,12 +4,13 @@
 }
 h1 {
   margin-bottom: 15px;
+  text-align: center;
 }
 p {
   border: 1px solid grey;
   background-color: #FA8072;
-  width: 95px;
-  height: 50px;
+  width: 150px;
+  height: 30px;
   font-family: Helvetica;
   color: white;
   float: right;
@@ -26,13 +27,15 @@ section {
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
+  padding: 5px;
+  margin: 5px;
 }
 /********** Large devices only **********/
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3 {
     float: left;
     border: 1px solid grey;
-    padding: 5px;
+    padding: 10px;
     background: #F4F6F6;
     margin: 0px;
   }
@@ -52,6 +55,7 @@ section {
     float: left;
     border: 1px solid grey;
     background: #F4F6F6;
+    padding: 10px;
     margin: 0px;
   }
   .col-md-1 {
@@ -71,6 +75,7 @@ section {
     border: 1px solid grey;
     background: #F4F6F6;
     margin: 0px;
+    padding: 10px;
   }
   .col-sm-1 {
     width: 100%;
